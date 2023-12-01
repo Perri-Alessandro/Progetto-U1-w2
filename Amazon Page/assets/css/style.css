@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(222, 237, 237);
+}
+.header {
+  background-color: #222f3f;
+}
+header img {
+  width: 9%;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+header a {
+  color: #eaeded;
+  padding-left: 1.3%;
+  text-decoration: none;
+  font-size: 170%;
+  margin-left: 0.98%;
+}
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+.bg-dark {
+  border-color: #222f3e;
+  background-color: #364759;
+  padding-top: 0.6%;
+  padding-bottom: 0.6%;
+}
+.bg-yellow {
+  background-color: #f56600;
+  border-color: #341600;
+  padding-top: 0.4%;
+  padding-bottom: 0.4%;
+  margin-top: 2%;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  text-align: center;
+}
+.bg-yellow a {
+  text-decoration: none;
+  font-size: 50%;
+  color: #eaeded;
+  font-size: 200%;
+}
+.bg img {
+  margin-top: 2%;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  width: 95.6%;
+  display: block;
+}
+.bg2 img {
+  display: block;
+  width: 95.6%;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  height: 8vh;
+}
+.primo {
+  background-color: white;
+  margin-top: 2%;
+  width: 95.6%;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  font-size: 180%;
+  padding-left: 0.5%;
+  padding-top: 1%;
+}
+.primo a {
+  text-decoration: none;
+  padding-left: 1%;
+  color: rgb(12, 147, 231);
+  font-size: 80%;
+}
+.primo p {
+  padding-left: 1%;
+}
+.primo img {
+  margin-top: 1.5%;
+  display: inline-block;
+  width: 22.7%;
+  height: 45vh;
+  border-radius: 35px;
+  margin: 1%;
+}
+.accessori img {
+  width: 96.3%;
+  height: 50vh;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  margin-top: 1.7%;
+}
+.accessori p {
+  text-align: center;
+  font-size: 180%;
+}
+.accessori a {
+  text-decoration: none;
+  padding-left: 1%;
+  color: rgb(12, 147, 231);
+  font-size: 80%;
+}
+footer {
+  margin-top: 1.5%;
+  text-align: center;
+}
+footer a {
+  color: #eaeded;
+  font-size: 170%;
+}
+.footer {
+  background-color: #222f3f;
+  padding-top: 2.8%;
+  padding-bottom: 3.5%;
+}
+.py-1 {
+  padding: 1rem 0;
+}
