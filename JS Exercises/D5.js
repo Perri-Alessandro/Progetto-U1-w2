@@ -116,9 +116,24 @@ console.log("COLORI CORRISPONDENTI A BUZZ:", buzzC);
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const alphabet = "abcdefghilmnopqrstuvz";
+
+let positionsArray = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  let char = charactersArray[i].toLowerCase();
+  let position = alphabet.indexOf(char) + 1;
+  positionsArray.push(
+    position > 0 ? position : "CARATTERI NON PRESENTI IN ALFABETO ITALIANO"
+  );
+}
+
+console.log("Posizioni nell'alfabeto italiano:", positionsArray);
