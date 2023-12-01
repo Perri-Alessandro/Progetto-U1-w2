@@ -116,6 +116,12 @@ console.log("COLORI CORRISPONDENTI A BUZZ:", buzzC);
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
+let i = 0;
+while (i < numericArray.length && numericArray[i] <= 32) {
+  console.log("Valori fino al raggiungimento di 32:", numericArray[i]);
+  i++;
+}
+// non corretto
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
