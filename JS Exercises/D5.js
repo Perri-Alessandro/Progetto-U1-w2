@@ -21,6 +21,7 @@ for (let i = 0; i < pets.length; i++) {
 */
 pets.sort();
 console.log("GLI ELEMENTI IN ORDINE ALFABETICO SONO:", pets);
+
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
@@ -69,6 +70,7 @@ for (let i = 0; i < cars.length; i++) {
   cars[i].licensePlate = license;
 }
 console.log("ORA è STATA AGGIUNTA LA PROPRIETà licensePlate", cars);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -85,6 +87,7 @@ for (let i = 0; i < cars.length; i++) {
   }
 }
 console.log("RIMOSSO ULTIMO ELEMENTO DI PROPRIETà TRIMS", cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
@@ -95,6 +98,7 @@ for (let i = 0; i < cars.length; i++) {
   }
 }
 console.log("AGGIUNTO PRIMO ELEMENTO DI TRIMS IN JUStTRIMS", justTrims);
+
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
@@ -110,18 +114,22 @@ for (let i = 0; i < cars.length; i++) {
 }
 console.log("COLORI CORRISPONDENTI A FIZZ:", fizzC);
 console.log("COLORI CORRISPONDENTI A BUZZ:", buzzC);
+
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
+
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
+let trentadue = [];
 let i = 0;
-while (i < numericArray.length && numericArray[i] <= 32) {
-  console.log("Valori fino al raggiungimento di 32:", numericArray[i]);
+do {
+  trentadue.push(numericArray[i]);
   i++;
-}
-// non corretto
+} while (i < numericArray.length && numericArray[i - 1] !== 32);
+console.log("VALORE:", trentadue);
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
@@ -137,4 +145,4 @@ for (let i = 0; i < charactersArray.length; i++) {
     position > 0 ? position : "CARATTERI NON PRESENTI IN ALFABETO ITALIANO"
   );
 }
-console.log("POSIZIONI IN ALFABRTO ITALIANO:", positionsArray);
+console.log("POSIZIONI IN ALFABETO ITALIANO:", positionsArray);
